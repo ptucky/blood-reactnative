@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "BBF Exposure Report",
+    "slug": "blood",
+    "privacy": "public",
+    "sdkVersion": "34.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.10",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#fbfcfe"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.bbfexposure",
+      "icon": "./assets/images/icon-apple.png",
+      "splash": {
+        "image": "./assets/images/splash.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#fbfcfe"
+      }
+    },
+    "android": {
+      "versionCode": 10,
+      "package": "com.bbfexposure"
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js"
+  },
+  "displayName": "BBF Exposure Report",
+  "name": "BBF Exposure Report"
+}
